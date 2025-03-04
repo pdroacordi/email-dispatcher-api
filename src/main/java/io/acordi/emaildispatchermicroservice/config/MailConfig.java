@@ -14,13 +14,13 @@ public class MailConfig {
     @Value("${acordi.mail.host}")
     private String host;
 
-    @Value("{acordi.mail.port}")
+    @Value("${acordi.mail.port}")
     private int port;
 
-    @Value("{acordi.mail.username}")
+    @Value("${acordi.mail.username}")
     private String username;
 
-    @Value("{acordi.mail.password}")
+    @Value("${acordi.mail.password}")
     private String password;
 
     @Bean
