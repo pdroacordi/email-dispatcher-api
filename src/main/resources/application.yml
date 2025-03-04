@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: email-dispatcher-microservice
+
+acordi:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_USER}
+    password: ${EMAIL_PASSWORD}
